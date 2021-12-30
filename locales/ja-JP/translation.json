@@ -1,6 +1,66 @@
 {
   "auth": {"id": "ID"},
   "member": {
+    "title": {
+      "favorite": "お気に入り",
+      "Org": "組織図",
+      "MyDepartment": "私の部署",
+      "move": "移動",
+      "selectTopGroup": "親グループの選択",
+      "AddLowerGroup": "サブグループの追加",
+      "modifyGroup": "グループの編集",
+      "addGroup": "グループを追加",
+      "totalSearch": "統合検索",
+      "myDepartment": "私の部署",
+      "select": "選択"
+    },
+    "buttonName": {
+      "ok": "確認",
+      "TopGroup": "トップ"
+    },
+    "text": {
+      "name": "名前",
+      "selectTopGroup": "親グループの選択",
+      "delete": "削除",
+      "cancel": "キャンセル",
+      "addmember": "メンバーを追加",
+      "willShareMember": "共有するターゲットを選択"
+    },
+    "AlertMessage": {
+      "Alert": "お知らせ",
+      "delete_message": "削除しますか？\n選択したグループとグループ内に追加されたユーザー \n すべて削除されます。",
+      "selectDeleteMember": "削除するメンバーを選択してください",
+      "deleteConfirmMessage": "選択したアイテムを削除しますか？",
+      "deleteConfirmMessage_sir": " ニム",
+      "duplicateMessage": "が重複して移動できません.",
+      "ok": "確認",
+      "SelectWillShareMember": "共有するメンバーを選択してください",
+      "pleaseOneMemberSelectMessage": "メッセージを送信するメンバーを選択してください",
+      "selectMemberMessage": "メンバーを指定してください！",
+      "notAddDuplicateMemberMessage": "さんはすでにグループにいます。"
+    },
+    "menu": {
+      "AddMember": "メンバーを追加",
+      "modifyGroup": "グループの編集",
+      "AddLowerGroup": "サブグループの編集",
+      "DeleteGroup": "グループの削除"
+    },
+    "modalText": {
+      "sellPhoneNumber": "携帯電話番号",
+      "phoneNumber": "携帯電話番号",
+      "inlineNumber": "内線番号"
+    },
+    "favoiteDrawerLabelName": {
+      "labelName_favorite": "お気に入り",
+      "labelName_Org": "組織図",
+      "labelName_myDepartment": "私の部署"
+    },
+    "speedDialActions": {
+      "AddGroup": "グループ追加",
+      "AddMember": "メンバーを追加",
+      "AddContactInfo": "連絡先を追加",
+      "BringContactInfoFromSellPhone": "連絡先を追加"
+    },
     "key": "メンバー",
     "root": "最上位",
     "unknown": "未分類",
@@ -53,7 +113,183 @@
     "organizationChart": {"key": "組織図"},
     "myDepartment": {"key": "私の部門"}
   },
-  "chat": {"key": "会話"},
+  "chat": {
+    "key": "会話",
+    "ChatDrawerScreen": {
+      "startChatting": "アスタリスク会話",
+      "CommonChatting": "一般会話",
+      "OpenChatting": "オープン会話",
+      "BoomChatting": "ブーム会話"
+    },
+    "ChatAccessorAddFileTab1": {
+      "Camera": "カメラ",
+      "Album": "アルバム",
+      "File": "ファイル",
+      "Drive": "드라이브",
+      "Google": "Google",
+      "Schedule": "スケジュール",
+      "Todo": "To-Do",
+      "Survey": "アンケート"
+    },
+    "ChatAccessorAddFileTab2": {
+      "Call": "電話",
+      "VideoConference": "ビデオ会議",
+      "ConatactInfo": "お問い合わせ"
+    },
+    "ChatInputComponent": {
+      "insertMesaage_placeholder": "メッセージを入力してください"
+    },
+    "ChatLinksComponent": {
+      "unfoundedPage": "ないホームページです."
+    },
+    "ChatMakeOpenChatModal": {
+      "Nondisclosure": "プライベート",
+      "Public": "公開"
+    },
+
+    "ChatMesaageSelectTimer": {
+      "ThirtySeconds": "30秒",
+      "OneMinute": "1分",
+      "ThirtyMinute": "30分",
+      "oneDay": "一日"
+    },
+    "ChatMessageIsReplyComponent": {
+      "replyTo": "にコメント"
+    },
+    "ChatMessageReplyComponent": {
+      "toReply": "にコメント"
+    },
+    "ChatNotiComponent": {
+      "post": "登録",
+      "neverOpen": "もう開けない",
+      "hide": "隠す"
+    },
+    "openChattingRoomInfo": {
+      "people": "人"
+    },
+    "ChatProposalMessageComponent": {
+      "untill": "まで",
+      "ParticipatedInTheSurvey": "アンケート参加",
+      "scheduleCheck": "スケジュール確認"
+    },
+    "ChatRenderMessageComponent": {
+      "whisper": "(耳元) ",
+      "deletedMessage": "削除されたメッセージ."
+    },
+    "ChatScreenDrawerContent": {
+      "Gathering": "集める",
+      "ConversationParticipant": "対話相手",
+      "manage": "管理"
+    },
+    "ChatScrolltoBottomHandlerComponent": {
+      "goBackToTheComment": "コメントに戻る"
+    },
+    "ChatSpeedDials": {
+      "normalChat": "一般会話",
+      "openChat": "オープン会話",
+      "boomChat": "ブーム対話"
+    },
+    "ChattingAddScheduleTypeSelect": {
+      "mySchedule": "私のスケジュール",
+      "channelSchedule": "チャンネルスケジュール"
+    },
+    "ChattingAddSurveyCategory": {
+      "object": "客観式",
+      "subject": "主観式"
+    },
+    "ChattingMessageModalComponent": {
+      "copy": "コピー",
+      "copied": "コピーされました。",
+      "writeReply": "コメントを書く",
+      "postToMe": "私に送る",
+      "deliveredToMe": "私に渡されました。",
+      "deleteOnlyTome": "私にのみ削除",
+      "deletetoAll": "すべての相手に削除",
+      "RegisterNoti": "お知らせとして登録",
+      "share": "共有",
+      "translation": "翻訳",
+      "scrap": "スクラップ"
+    },
+    "ChattingAddScheduleScreen": {
+      "AddSchedule": "スケジュールを追加",
+      "startDay": "開始日",
+      "selectStartDayMessage": "開始日を最初に指定してください！",
+      "endDay": "終了日",
+      "cantSelectEndDayMessage": "終了日は開始日より早くはできません。",
+      "complete": "完了",
+      "title*": "タイトル",
+      "Sortation": "分類",
+      "sortationType_MySchedule": "私のスケジュール",
+      "sortationType_MyChannelSchedule": "チャンネルスケジュール",
+      "DueDate": "期限",
+      "Repetition": "繰り返し",
+      "noRepetition": "繰り返さない",
+      "alram": "お知らせ",
+      "addAlram": "通知を追加",
+      "Participants": "出席者",
+      "addParticipants": "出席者を追加",
+      "Location": "場所",
+      "insertLocation": "位置を入力",
+      "content": "本文"
+    },
+    "ChattingAddSurveyScreen": {
+      "selectDate": "日付を選択",
+      "selectTime": "時間の選択",
+      "addSurvey": "アンケートを追加",
+      "complete": "完了",
+      "title*": "タイトル*",
+      "Questionnaire": "アンケート対象",
+      "closingHour": "締め切り",
+      "QuestionnaireOptions": "アンケートオプション",
+      "pluralSelect": "複数選択",
+      "AnonymousSettings": "匿名設定",
+      "canParticipateAgain": "再参加可能",
+      "QuestionnaireItems": "アンケート項目",
+      "AddItems": "項目を追加",
+      "addObject": "複数選択肢を追加",
+      "addSubject": "主観式を追加",
+      "contents": "本文"
+    },
+    "ChattingDetailMessageScreen": {
+      "reply": "コメント",
+      "moreReply": "もっとコメントする"
+    },
+    "ChattingMakeOpenChatScreen": {
+      "createOpenChat": "オープン会話の作成",
+      "Check": "確認",
+      "ChattingRoomName": "チャットルーム名",
+      "hashTags": "はじめにハッシュタグ",
+      "isOpen": "公開可否",
+      "ParticipationCode": "参加コード",
+      "public": "公開",
+      "private": "プライベート"
+    },
+    "ChattingOpenChatSearchScreen": {
+      "popularHashTag": "人気検索ハッシュタグ",
+      "popularOpenChat": "人気のオープン会話"
+    },
+    "ChattingOpenChatTopTap": {
+      "List": "リスト",
+      "Exploring": "ナビゲーション"
+    },
+    "ChattingRoomBackgroundSettingScreen": {
+      "background": "背景",
+      "selectBackground": "背景の選択",
+      "check": "確認",
+      "color": "色",
+      "illustration": "イラスト",
+      "selectPictureOnAlbum": "アルバムから写真を選択"
+    },
+    "ChattingRoomListScreen": {
+      "noConversation": "会話はありません。"
+    },
+    "ChattingRoomSelectColorScreen": {
+      "color": "色"
+    },
+    "ChattingRoomSelectIlustrate": {
+      "illustration": "イラスト"
+    }
+  },
   "message": {
     "key": "メッセージ",
     "writeMessage": {
@@ -561,6 +797,7 @@
         "fromdate": "開始日",
         "include": "含む単語",
         "init": "初期化",
+        "askinit": "初期化しますか？",
         "period": "期間",
         "period1month": "1ヶ月",
         "period3month": "3ヶ月",
@@ -1122,7 +1359,6 @@
     "confirmReturn": "返送されました。",
     "loadDraft": "起案書の読み込み",
     "myWroteDraft": "私が作成した起案書",
-    "loadDraft1": ["起案書を呼び出す", "私の起案書"],
     "approvalStatus": " 決裁状況",
     "myDraft": "私の上申した文書",
     "myApproval": "私が決裁する文書",
@@ -1154,7 +1390,6 @@
     "formRemittanceAmount": "送金額(円)",
     "formRequestRemittanceDate": "送金要請日",
     "formSelectDate": "日付選択",
-
     "formDate": "日付",
     "formItem": "項目",
     "formInputItem": "項目入力",
@@ -1162,7 +1397,6 @@
     "formMoney": "金額",
     "formUsageHistory": "使用内訳",
     "formInputUsageHistory": "使用履歴入力",
-
     "formKorean": "韓国語",
     "formEnglish": "英語",
     "formCertificateOfEmployment": "在職証明書",
@@ -1184,7 +1418,6 @@
     "formSelectPurpose": "用途選択",
     "formSocialNumber": "住民登録番号",
     "formSeal": "職人",
-
     "formOpen": "公開",
     "formTeamOpen": "部署公開",
     "formPrivate": "非公開",
@@ -1201,7 +1434,6 @@
     "formAppicantInfo": "申請者情報",
     "formNoFile": "ファイルなし",
     "formNoReference": "参照文書なし",
-
     "formFamilyEvents": "慶弔事項",
     "formFamilyEventsName": "慶弔名",
     "formInputFamilyEvents": "慶弔事項入力",
@@ -1227,9 +1459,7 @@
     "formNoEtcMessage": "その他の事項はございません。",
     "formInternalApprovalMessage": "内部決裁内容",
     "formInputInternalApprovalMessage": "内部決裁内容入力",
-
     "formPeriod": "基幹",
-
     "formApplicationItems": "申請項目",
     "formInputApplicationItems": "申請項目入力",
     "formStandard": "規格",
@@ -1239,13 +1469,11 @@
     "formQuantity": "数量",
     "formRemark": "備考",
     "formInputRemark": "備考入力",
-
     "formInputReception": "受信入力",
     "formDoInputReception": "受信を入力してください。",
     "formInputCC": "参照入力",
     "formDoInputCC": "参照を入力してください.",
     "formSendDate": "発送日",
-
     "formVia": "経由",
     "formInputVia": "経由入力",
     "formDoInputVia": "経由を入力してください。",
@@ -1253,16 +1481,12 @@
     "formInputReceiver": "受信者入力",
     "formDoInputReceiverDesktop": "受信者入力してください。",
     "formDoInputReceiver": "受信者を設定してください。",
-
     "formApprovalOpinion": "決裁意見",
     "formNoApprovalOpinion": "決裁の意見がありません。",
-
     "formLeaveOfAbsencePeriod": "休職期間",
     "formReinstatementDate": "復職予定日",
-
     "askDownloadFile": "ダウンロードしますか。",
     "downloadFileFailed": "ダウンロードに失敗しました。",
-
     "confirm": "確認",
     "delete": "削除",
     "save": "保存",
@@ -1304,7 +1528,11 @@
     "approvalType": "決裁区分",
     "approver": "決裁者",
     "confirmReceptionDesktop": "受信確認",
-    "modify": "修整"
+    "modify": "修整",
+    "lang_ko": "한국어",
+    "lang_en": "English",
+    "lang_jp": "日本語",
+    "lang_th": "Thai"
   },
   "attendance": {
     "key": "出席",
@@ -1323,7 +1551,18 @@
     "friday": "金曜日",
     "saturday": "土曜日",
     "work": "勤務",
-
+    "jan": "1月",
+    "feb": "2月",
+    "mar": "3月",
+    "apr": "4月",
+    "may": "5月",
+    "jun": "6月",
+    "jul": "7月",
+    "aug": "8月",
+    "sep": "9月",
+    "oct": "10月",
+    "nov": "11月",
+    "dec": "12月",
     "predetermined": "予約",
     "year": "年",
     "month": "月",
@@ -1334,7 +1573,6 @@
     "minutesSpan": "分目",
     "hour": "時",
     "myWorkStatus": "私の勤務状況",
-
     "monthlyTotalWorkingTime": "今月の総勤務時間",
     "required": "必須",
     "planned": "計画",
@@ -1349,12 +1587,15 @@
     "doGoWork": "出勤する",
     "doGoOff": "退勤する",
     "weeklyWorkStatus": "週間勤務状況",
-
     "applyLeave": "休暇申請",
+    "doApplyLeave": "休暇を申請する",
     "applyChangeCommuteTime": "出退勤記録変更申請",
+    "changeCommuteTime": "出退勤の変更",
+    "searchChangeCommuteTime": "出退勤変更検索",
     "applyOverTimeWork": "延長勤務申請",
     "applyChangeWorkingTime": "勤務時間変更申請",
     "total": "合",
+    "few": "件",
     "weeklyTotal": "週間合計",
     "remain": "残り",
     "overtime": "延長",
@@ -1366,23 +1607,27 @@
     "holidayOvertime": "休日延長",
     "totalWorkingTime": "総勤務時間",
     "monthlyWorkStatus": "月勤務状況",
-
     "monthlyWorkHistory": "月勤務履歴",
     "accumulate/totalWorkingTime": "累積/総勤務時間",
     "tardy": "遅刻",
     "earlyGoOff": "早退",
     "absense": "欠勤",
     "noGoOffCheck": "退勤未チェック",
+    "noGoOffCheck2": "退勤ミチェック",
     "showWorkStatus": "勤務状況を見る",
+    "showWorkStatus2": "勤務状況を見る",
     "showWorkPlan": "勤務計画を見る",
+    "showWorkPlan2": "勤務計画を見る",
+    "workPlan": "勤務計画",
     "weeklyWorkingTime": "週間合計",
+    "weeklyWorkingTime2": "週間合計",
     "weeklyCurrentWorkingTime": "実際の勤務",
-
     "annualWorkHistory": "年勤務履歴",
     "leaveHistory": "休暇状況",
     "workHistory": "勤務状況",
     "workStatistics": "勤務統計",
-
+    "searchWorkStatistics": "勤務統計検索",
+    "searchWorkHistory": "勤務状況検索",
     "formSelectDate": "日付を選択",
     "applicant": "申請者",
     "requestDate": "要請日",
@@ -1392,24 +1637,160 @@
     "selection": "選択",
     "application": "申請",
     "inputWorkDetails": "勤務内容の入力",
-
     "changeDate": "変更日",
     "commuteStatus": "出退勤の可否",
     "goWorkTime": "出勤時間",
     "goOffTime": "退勤時間",
     "inputeReason": "事由入力",
-
     "noCommuteCheck": "出退勤未記録",
     "normalWork": "通常勤務",
     "beforeGoOff": "退勤前",
-
     "workTimeChangeSetting": "勤務時間変更設定",
     "changeBasisWorkTime": "基本勤務時間の変更",
     "changeMininumWorkTime": "最小勤務時間の変更",
-
     "menuMyWork": "私の仕事",
     "menuTeamWork": "チームの仕事",
-    "menuManagementApplication": "申請管理"
+    "menuManagementApplication": "申請管理",
+    "memberLeaveStatus": "休暇の現状",
+    "totalLeaveCount": "休暇の合計",
+    "use": "使用",
+    "useStandard": "使用基準",
+    "selectUseStandard": "使用基準の選択",
+    "classfication": "分類",
+    "mainCategory": "大分類",
+    "unitOfUnit": "使用単位",
+    "subCategory": "小分類",
+    "startDate2": "開始日",
+    "endDate2": "終了日",
+    "period": "期間",
+    "attachFile": "ファイル添付",
+    "count": "個",
+    "weekly": "週間",
+    "sum": "合計",
+    "jeong": "正常",
+    "workOnTime": "定時出勤",
+    "plannedWork": "計画された勤務",
+    "overtimeWorkTime": "延長勤務時間",
+    "nightWork": "夜勤",
+    "nightWork2": "夜勤",
+    "holidayWork": "休日勤務",
+    "holidayWork2": "休日勤務",
+    "weekdayOvertime": "平日延長",
+    "weekdayNight": "平日の夜延長",
+    "holidayOvertime2": "休日延長",
+    "holidayNight": "休日の夜延長",
+    "overtimeWork": "延長勤務",
+    "overtimeWork2": "延長勤務",
+    "searchOvertimeWork": "延長勤務検索",
+    "remainVacation": "残りの休暇",
+    "createVacationHistory": "休暇作成履歴",
+    "applyVacationHistory": "休暇申請履歴",
+    "createDate": "作成日",
+    "generation": "発生",
+    "final": "最終",
+    "contents": "内容",
+    "remark": "備考",
+    "leaveOfAbsense": "休職",
+    "leaveAppicationDoc": "休暇申請書",
+    "draft": "上身",
+    "progress": "進む",
+    "reject": "ペット",
+    "complete": "完了",
+    "applyDate": "申請日",
+    "leaveType": "休暇の種類",
+    "dateCount": "日数",
+    "detail": "詳細",
+    "query": "照会",
+    "weeklyPlan": "週間計画",
+    "weeklyWorkTime": "週間実務",
+    "toConfirm": "承認",
+    "all": "全体",
+    "searchUser": "ユーザー検索",
+    "indivisualLeaveStatus": "個人別の休暇状況",
+    "creation": "作成",
+    "leaveApplicationApprovalTime": "休暇申請書決済承認",
+    "leaveApplicationDraftTime": "休暇申請書上身",
+    "morningOff": "午前半",
+    "afternoonOff": "午後半",
+    "allday": "終日",
+    "attendance": "勤勉",
+    "workCount": "勤務日数",
+    "totalWorkingTime2": "総勤務時間",
+    "averageWorkingTime": "平均勤務時間",
+    "appicationManagement": "申請管理",
+    "myApplyStatus": "私の申請状況",
+    "myApplyStatus2": "私の申請状況",
+    "searchMyApplyStatus2": "私の申請状況を検索",
+    "changeDayWorkingTime": "勤務時間の変更",
+    "wating": "待つ",
+    "changeCommuteTime2": "出退勤記録の変更",
+    "changeWorkingTime": "勤務時間の変更",
+    "searchChangeWorkingTime": "勤務時間変更検索",
+    "cancel": "キャンセル",
+    "applyType": "申請区分",
+    "selectDepartment": "部門の選択",
+    "inputName": "名前を入力",
+    "status": "状態",
+    "kinds": "種類",
+    "inputKinds": "タイプ入力",
+    "searchVacation": "休暇検索",
+    "weekdayOvertime2": "平日勤務",
+    "weekdayNightTime": "平日（夜間）",
+    "holidayNightTime": "休日（夜間）",
+    "approval": "決済",
+    "am": "午前",
+    "pm": "午後",
+    "askDownloadFile": "ダウンロードしますか？",
+    "downloadFileFailed": "ダウンロードに失敗しました。",
+    "cancelApplication": "申請をキャンセルしますか？",
+    "approvalStatus": " 決済状況",
+    "inputApprovalOpinion": "決済コメントの入力",
+    "personWorkStatus": "個人別の勤務状況",
+    "today": "今日",
+    "weeklyTotalWorkingTime": "週間累積勤務時間",
+    "totalWorkingTimeThisMonth": "今月の総勤務時間",
+    "workingTime": "勤務時間",
+    "overtime2": "延長勤務時間",
+    "leaveAddHistory": "生成履歴",
+    "no": "番号",
+    "leaveKinds": "休暇の種類",
+    "memberName": "名前",
+    "totalUserNum": "総人数",
+    "approvalLeaveApplication": "休暇申請書決済承認",
+    "draftLeaveApplication": "休暇申請書上身",
+    "applicationClassfication": "申請区分",
+    "periodStart": "開始日時",
+    "periodEnd": "終了日時",
+    "useday-time": "使用日/時間",
+    "nextApprover": "次の決済者",
+    "viewDetail": "詳細を見る",
+    "search": "検索",
+    "initialize": "初期化",
+    "inputDirect": "直接入力",
+    "exceptionPostfix": "外",
+    "usePeriod": "使用期間",
+    "process": "処理",
+    "omission": "行方不明",
+    "goworkNonCheck": "出勤未確認",
+    "reason": "理由",
+    "changeTime": "変更時間",
+    "prevTime": "既存時間",
+    "registerTime": "登録時間",
+    "workDetails": "勤務内容",
+    "addFileRightIcon": "右アイコンで添付ファイルを追加",
+    "myDevice": "私のデバイス",
+    "drive": "ドライブ",
+    "googleDrive": "Googleドライブ",
+    "goWorkTime2": "出勤時間",
+    "goOffTime2": "退勤時間",
+    "startDate3": "開始時間",
+    "endDate3": "終了時間",
+    "applyChangeWorkingTime2": "勤務時間変更申請",
+    "buttonNo": "いいえ",
+    "buttonYes": "はい",
+    "formApprovalOpinion": "決済意見",
+    "closeButton": "閉じる",
+    "translation": "翻訳"
   },
   "expense": {"key": "value"}
 }

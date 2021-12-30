@@ -1,6 +1,66 @@
 {
   "auth": {"id": "ID"},
   "member": {
+    "title": {
+      "favorite": "Favorite",
+      "Org": "Organization chart",
+      "MyDepartment": "My Dept",
+      "move": "Move",
+      "selectTopGroup": "Select parent group",
+      "AddLowerGroup": "Add subgroup",
+      "modifyGroup": "Edit group",
+      "addGroup": "Add group",
+      "totalSearch": "Search",
+      "myDepartment": "My Dept",
+      "select": "Select"
+    },
+    "buttonName": {
+      "ok": "OK",
+      "TopGroup": "Top level"
+    },
+    "text": {
+      "name": "Name",
+      "selectTopGroup": "Select parent group",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "addmember": "Add member",
+      "willShareMember": "Select share member"
+    },
+    "AlertMessage": {
+      "Alert": "Notification",
+      "delete_message": "Are you sure you want to delete?\nThe selected group and all users added within the group .\n are deleted.",
+      "selectDeleteMember": "Please select a member to delete",
+      "deleteConfirmMessage": "Are you sure you want to delete the selected item?",
+      "deleteConfirmMessage_sir": "  ",
+      "duplicateMessage": "is duplicated and cannot be moved.",
+      "ok": "Confirm",
+      "SelectWillShareMember": "Select share member",
+      "pleaseOneMemberSelectMessage": "Please select a member to send",
+      "selectMemberMessage": "Please select a member!",
+      "notAddDuplicateMemberMessage": "is already in the group."
+    },
+    "menu": {
+      "AddMember": "Add member",
+      "modifyGroup": "Edit group",
+      "AddLowerGroup": "Modify subgroups",
+      "DeleteGroup": "Delete group"
+    },
+    "modalText": {
+      "sellPhoneNumber": "Cell number",
+      "phoneNumber": "Cell number",
+      "inlineNumber": "Extension number"
+    },
+    "favoiteDrawerLabelName": {
+      "labelName_favorite": "Favorites",
+      "labelName_Org": "Organization chart",
+      "labelName_myDepartment": "My dept"
+    },
+    "speedDialActions": {
+      "AddGroup": "Add group",
+      "AddMember": "Add member",
+      "AddContactInfo": "Add Contact",
+      "BringContactInfoFromSellPhone": "Add Contact"
+    },
     "key": "Member",
     "root": "Top most",
     "unknown": "Unclassified",
@@ -34,7 +94,7 @@
       "addToFavorite": "Add to favorite",
       "modifyGroup": "Edit group",
       "addSubGroup": "Add subgroup",
-      "deleteGroup": "그룹 삭제"
+      "deleteGroup": "Delete group"
     },
     "favorite": {
       "key": "Favorite",
@@ -53,7 +113,183 @@
     "organizationChart": {"key": "Organization chart"},
     "myDepartment": {"key": "My dept"}
   },
-  "chat": {"key": "Chat"},
+  "chat": {
+    "key": "Chat",
+    "ChatDrawerScreen": {
+      "startChatting": "Starred chat",
+      "CommonChatting": "Chat",
+      "OpenChatting": "Open cchat",
+      "BoomChatting": "Boom chat"
+    },
+    "ChatAccessorAddFileTab1": {
+      "Camera": "Camera",
+      "Album": "Album",
+      "File": "File",
+      "Drive": "Drive",
+      "Google": "Google",
+      "Schedule": "Schedule",
+      "Todo": "To-Do",
+      "Survey": "Poll"
+    },
+    "ChatAccessorAddFileTab2": {
+      "Call": "Telephone",
+      "VideoConference": "Video conference",
+      "ConatactInfo": "Contacts"
+    },
+    "ChatInputComponent": {
+      "insertMesaage_placeholder": "Enter a message"
+    },
+    "ChatLinksComponent": {
+      "unfoundedPage": "This is no website."
+    },
+    "ChatMakeOpenChatModal": {
+      "Nondisclosure": "Private",
+      "Public": "Public"
+    },
+
+    "ChatMesaageSelectTimer": {
+      "ThirtySeconds": "30 secs",
+      "OneMinute": "1 Min",
+      "ThirtyMinute": "30 min",
+      "oneDay": "All day"
+    },
+    "ChatMessageIsReplyComponent": {
+      "replyTo": "Reply to"
+    },
+    "ChatMessageReplyComponent": {
+      "toReply": "Reply to"
+    },
+    "ChatNotiComponent": {
+      "post": "Register",
+      "neverOpen": "Never reopen",
+      "hide": "Hide"
+    },
+    "openChattingRoomInfo": {
+      "people": " "
+    },
+    "ChatProposalMessageComponent": {
+      "untill": "till ",
+      "ParticipatedInTheSurvey": "Participate in the survey",
+      "scheduleCheck": "Check schedule"
+    },
+    "ChatRenderMessageComponent": {
+      "whisper": "(Whisper) ",
+      "deletedMessage": "Deleted message."
+    },
+    "ChatScreenDrawerContent": {
+      "Gathering": "See all",
+      "ConversationParticipant": "Chat partner",
+      "manage": "Manage"
+    },
+    "ChatScrolltoBottomHandlerComponent": {
+      "goBackToTheComment": "Back to comments"
+    },
+    "ChatSpeedDials": {
+      "normalChat": "Chat",
+      "openChat": "Open chat",
+      "boomChat": "Boom chat"
+    },
+    "ChattingAddScheduleTypeSelect": {
+      "mySchedule": "My schedule",
+      "channelSchedule": "Channel schedule"
+    },
+    "ChattingAddSurveyCategory": {
+      "object": "Multiple choice",
+      "subject": "Subjective"
+    },
+    "ChattingMessageModalComponent": {
+      "copy": "Copy",
+      "copied": "Copied.",
+      "writeReply": "Write a comment",
+      "postToMe": "Send me",
+      "deliveredToMe": "Sent to me.",
+      "deleteOnlyTome": "Delete only for me",
+      "deletetoAll": "Delete to all opponents",
+      "RegisterNoti": "Register by notice",
+      "share": "Share",
+      "translation": "Translation",
+      "scrap": "Scrap"
+    },
+    "ChattingAddScheduleScreen": {
+      "AddSchedule": "Add schedule",
+      "startDay": "Start date",
+      "selectStartDayMessage": "Please specify the start date first!",
+      "endDay": "End date",
+      "cantSelectEndDayMessage": "The end date cannot be earlier than the start date.",
+      "complete": "Complete",
+      "title*": "Title",
+      "Sortation": "Type",
+      "sortationType_MySchedule": "My schedule",
+      "sortationType_MyChannelSchedule": "Channel schedule",
+      "DueDate": "Due date",
+      "Repetition": "Repeat",
+      "noRepetition": "Do not repeat",
+      "alram": "Alarm",
+      "addAlram": "Add alarm",
+      "Participants": "Attendants",
+      "addParticipants": "Add attendants",
+      "Location": "Location",
+      "insertLocation": "Enter location",
+      "content": "Conetent"
+    },
+    "ChattingAddSurveyScreen": {
+      "selectDate": "Select date",
+      "selectTime": "Select time",
+      "addSurvey": "Add survey",
+      "complete": "Complete",
+      "title*": "Title*",
+      "Questionnaire": "Survey target",
+      "closingHour": "Deadline",
+      "QuestionnaireOptions": "Options",
+      "pluralSelect": "Multiple choice",
+      "AnonymousSettings": "Anonymous",
+      "canParticipateAgain": "재참여 가능",
+      "QuestionnaireItems": "설문항목",
+      "AddItems": "Add Item",
+      "addObject": "Add multiple choice",
+      "addSubject": "Add subjective",
+      "contents": "Content"
+    },
+    "ChattingDetailMessageScreen": {
+      "reply": "Comment",
+      "moreReply": "View more"
+    },
+    "ChattingMakeOpenChatScreen": {
+      "createOpenChat": "Create open chat",
+      "Check": "Confirm",
+      "ChattingRoomName": "Chat room name",
+      "hashTags": "Introduction hashtag",
+      "isOpen": "Disclosure",
+      "ParticipationCode": "Participation code",
+      "public": "Open",
+      "private": "Private"
+    },
+    "ChattingOpenChatSearchScreen": {
+      "popularHashTag": "Popular Hashtags",
+      "popularOpenChat": "Popular open char"
+    },
+    "ChattingOpenChatTopTap": {
+      "List": "List",
+      "Exploring": "Explore"
+    },
+    "ChattingRoomBackgroundSettingScreen": {
+      "background": "Background",
+      "selectBackground": "Select background",
+      "check": "Confirm",
+      "color": "Color",
+      "illustration": "Illustration",
+      "selectPictureOnAlbum": "Select photos from album"
+    },
+    "ChattingRoomListScreen": {
+      "noConversation": "There is no chat."
+    },
+    "ChattingRoomSelectColorScreen": {
+      "color": "Color"
+    },
+    "ChattingRoomSelectIlustrate": {
+      "illustration": "Illustration"
+    }
+  },
   "message": {
     "key": "Message",
     "writeMessage": {
@@ -561,6 +797,7 @@
         "fromdate": "Start date",
         "include": "Words containing",
         "init": "Reset",
+        "askinit": "Do you want to reset?",
         "period": "Term",
         "period1month": "1 month",
         "period3month": "3 months",
@@ -1122,7 +1359,6 @@
     "confirmReturn": "has been sent back.",
     "loadDraft": "Load a draft",
     "myWroteDraft": "Draft witten by me.",
-    "loadDraft1": ["Load draft", "My draft"],
     "approvalStatus": " Approval status",
     "myDraft": "Draft applied by me",
     "myApproval": "Draft to approve",
@@ -1154,7 +1390,6 @@
     "formRemittanceAmount": "Remittance amount",
     "formRequestRemittanceDate": "Remittance request date",
     "formSelectDate": "Select date",
-
     "formDate": "Date",
     "formItem": "Item",
     "formInputItem": "Add an item",
@@ -1162,7 +1397,6 @@
     "formMoney": "Amount used",
     "formUsageHistory": "Usage history",
     "formInputUsageHistory": "Enter usage history",
-
     "formKorean": "Korean",
     "formEnglish": "English",
     "formCertificateOfEmployment": "Employment certificate",
@@ -1184,7 +1418,6 @@
     "formSelectPurpose": "Choose the purpose.",
     "formSocialNumber": "Resident registration number",
     "formSeal": "Official seal",
-
     "formOpen": "Open",
     "formTeamOpen": "Department Disclosure",
     "formPrivate": "Private",
@@ -1201,7 +1434,6 @@
     "formAppicantInfo": "Applicant information",
     "formNoFile": "No files",
     "formNoReference": "No references",
-
     "formFamilyEvents": "Event",
     "formFamilyEventsName": "Event name",
     "formInputFamilyEvents": "Enter event item",
@@ -1227,9 +1459,7 @@
     "formNoEtcMessage": "Nothing else.",
     "formInternalApprovalMessage": "Contents of internal approval",
     "formInputInternalApprovalMessage": "Enter internal approval details",
-
     "formPeriod": "Period",
-
     "formApplicationItems": "Application items",
     "formInputApplicationItems": "Enter application items",
     "formStandard": "Standard",
@@ -1239,13 +1469,11 @@
     "formQuantity": "Quantity",
     "formRemark": "Note",
     "formInputRemark": "Enter a note",
-
     "formInputReception": "Enter reception",
     "formDoInputReception": "Please enter receprion.",
     "formInputCC": "Enter references",
     "formDoInputCC": "Please enter references.",
     "formSendDate": "Sent date",
-
     "formVia": "Via",
     "formInputVia": "Via input",
     "formDoInputVia": "Please enter via info.",
@@ -1253,16 +1481,12 @@
     "formInputReceiver": "Enter a receiver",
     "formDoInputReceiverDesktop": "Enter a receiver.",
     "formDoInputReceiver": "Please set receiver info",
-
     "formApprovalOpinion": "Approval comment",
     "formNoApprovalOpinion": "No approval comment.",
-
     "formLeaveOfAbsencePeriod": "Period of absence",
     "formReinstatementDate": "Expected return date",
-
     "askDownloadFile": "Do you want to download?",
     "downloadFileFailed": "Fail to download.",
-
     "confirm": "OK",
     "delete": "Delete",
     "save": "Save",
@@ -1304,7 +1528,11 @@
     "approvalType": "Approval type",
     "approver": "Approver",
     "confirmReceptionDesktop": "Check receive or not",
-    "modify": "Modofy"
+    "modify": "Modofy",
+    "lang_ko": "한국어",
+    "lang_en": "English",
+    "lang_jp": "日本語",
+    "lang_th": "Thai"
   },
   "attendance": {
     "key": "Attendance",
@@ -1323,7 +1551,18 @@
     "friday": "Friday",
     "saturday": "Saturday",
     "work": "Work",
-
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December",
     "predetermined": "Scheduled",
     "year": "Year",
     "month": "Month",
@@ -1334,13 +1573,12 @@
     "minutesSpan": "Min",
     "hour": "H",
     "myWorkStatus": "My work status",
-
     "monthlyTotalWorkingTime": "Total working hours this month.",
     "required": "Essential",
     "planned": "Plan",
     "fixedOT": "Fixed OT.",
     "outOfStandard": "Beyond the standard.",
-    "vacation": "Vacation",
+    "vacation": "Day off",
     "offDuty": "Off duty.",
     "todayWorkStatus": "Today's work status.",
     "goWork": "Attendance",
@@ -1349,12 +1587,15 @@
     "doGoWork": "Attendance",
     "doGoOff": "Off duty",
     "weeklyWorkStatus": "Weekly work status.",
-
-    "applyLeave": "Request for a vacation.",
+    "applyLeave": "Request for a day off.",
+    "doApplyLeave": "Apply",
     "applyChangeCommuteTime": "Application for changing commuting records.",
+    "changeCommuteTime": "Change of commuting",
+    "searchChangeCommuteTime": "Search for change of commuting",
     "applyOverTimeWork": "Application for overtime work.",
     "applyChangeWorkingTime": "Application for changing working hours.",
     "total": "Total",
+    "few": " Count(s)",
     "weeklyTotal": "Weekly total.",
     "remain": "Remaining.",
     "overtime": "Extension",
@@ -1366,23 +1607,27 @@
     "holidayOvertime": "Holiday overtime.",
     "totalWorkingTime": "Total work time",
     "monthlyWorkStatus": "Monthly work status.",
-
     "monthlyWorkHistory": "Monthly work details.",
     "accumulate/totalWorkingTime": "Accumulated/total working hours.",
     "tardy": "Being late",
     "earlyGoOff": "Going home early.",
     "absense": "Absent from work.",
     "noGoOffCheck": "unchecked work",
+    "noGoOffCheck2": "Unchecked from work",
     "showWorkStatus": "View work status",
+    "showWorkStatus2": "View work status",
     "showWorkPlan": "View work plan",
+    "showWorkPlan2": "View work plan",
+    "workPlan": "Work plan",
     "weeklyWorkingTime": "Weekly total",
+    "weeklyWorkingTime2": "Weekly total",
     "weeklyCurrentWorkingTime": "Actual work.",
-
     "annualWorkHistory": "Annual work details.",
-    "leaveHistory": "Vacation status.",
+    "leaveHistory": "Day off status.",
     "workHistory": "Work status.",
     "workStatistics": "Work statistics.",
-
+    "searchWorkStatistics": "Search work statistics",
+    "searchWorkHistory": "Search work status",
     "formSelectDate": "Select date",
     "applicant": "Applicant",
     "requestDate": "Request date",
@@ -1392,24 +1637,160 @@
     "selection": "Select",
     "application": "Apply",
     "inputWorkDetails": "Enter work details.",
-
     "changeDate": "Date of change",
     "commuteStatus": "Whether to go to/from work.",
     "goWorkTime": "Office-going time",
     "goOffTime": "Office leave time",
     "inputeReason": "Enter the reason.",
-
     "noCommuteCheck": "I didn't check my commute.",
     "normalWork": "Normal work.",
     "beforeGoOff": "Before office leave.",
-
     "workTimeChangeSetting": "Changing working hours.",
     "changeBasisWorkTime": "Changing the basic working hours.",
     "changeMininumWorkTime": "Change the minimum working hours.",
-
     "menuMyWork": "My work.",
     "menuTeamWork": "Team work.",
-    "menuManagementApplication": "Manage applications."
+    "menuManagementApplication": "Manage applications.",
+    "memberLeaveStatus": "Day off Status",
+    "totalLeaveCount": "Total day off",
+    "use": "Use",
+    "useStandard": "Criteria for use",
+    "selectUseStandard": "Choose your usage criteria",
+    "classfication": "Classification",
+    "mainCategory": "Main Category",
+    "unitOfUnit": "Unit of use",
+    "subCategory": "Subcategory",
+    "startDate2": "Start date",
+    "endDate2": "End date",
+    "period": "Period",
+    "attachFile": "Attachments",
+    "count": " Count(s)",
+    "weekly": "Weekly",
+    "sum": "Total",
+    "jeong": "On time",
+    "workOnTime": "Work on time",
+    "plannedWork": "planned work",
+    "overtimeWorkTime": "Overtime hours",
+    "nightWork": "Night shift",
+    "nightWork2": "Night shift",
+    "holidayWork": "Holiday work",
+    "holidayWork2": "Holiday work",
+    "weekdayOvertime": "Weekday extension",
+    "weekdayNight": "Weekday night extension",
+    "holidayOvertime2": "Holiday extension",
+    "holidayNight": "Holiday night extension",
+    "overtimeWork": "Overtime",
+    "overtimeWork2": "Overtime",
+    "searchOvertimeWork": "Search overtime",
+    "remainVacation": "Remaining day off",
+    "createVacationHistory": "Day off creation history",
+    "applyVacationHistory": "Day off apply history",
+    "createDate": "Creation date",
+    "generation": "Occured",
+    "final": "Final",
+    "contents": "Content",
+    "remark": "Remark",
+    "leaveOfAbsense": "Leave of absence",
+    "leaveAppicationDoc": "Application form",
+    "draft": "Application",
+    "progress": "Progress",
+    "reject": "Reject",
+    "complete": "Complte",
+    "applyDate": "Apply date",
+    "leaveType": "Type of day off",
+    "dateCount": " day(s)",
+    "detail": "Detail",
+    "query": "Search",
+    "weeklyPlan": "Weekly plan",
+    "weeklyWorkTime": "Weekly working hours",
+    "toConfirm": "Confirm",
+    "all": "All",
+    "searchUser": "Search user",
+    "indivisualLeaveStatus": "Individual day off status",
+    "creation": "Create",
+    "leaveApplicationApprovalTime": "Approval of day off application",
+    "leaveApplicationDraftTime": "Apply day off",
+    "morningOff": "Half day off on AM",
+    "afternoonOff": "Half day off on PM",
+    "allday": "All day",
+    "attendance": "Attendance",
+    "workCount": "Working days",
+    "totalWorkingTime2": "Total working hours",
+    "averageWorkingTime": "Average working hours",
+    "appicationManagement": "Application Management",
+    "myApplyStatus": "My application status",
+    "myApplyStatus2": "My application status",
+    "searchMyApplyStatus2": "Search my application status",
+    "changeDayWorkingTime": "Change of working hours",
+    "wating": "Wait",
+    "changeCommuteTime2": "Change commute record",
+    "changeWorkingTime": "Change working hours",
+    "searchChangeWorkingTime": "Search for change of work hours",
+    "cancel": "Cancel",
+    "applyType": "Apply type",
+    "selectDepartment": "Select dept",
+    "inputName": "Enter name",
+    "status": "Status",
+    "kinds": "Kinds",
+    "inputKinds": "Enter type",
+    "searchVacation": "Search day off",
+    "weekdayOvertime2": "Weekday work",
+    "weekdayNightTime": "Weekday(Night)",
+    "holidayNightTime": "Holiday(Night)",
+    "approval": "Approval",
+    "am": "AM",
+    "pm": "PM",
+    "askDownloadFile": "Download?",
+    "downloadFileFailed": "Fail to download.",
+    "cancelApplication": "Cancel application?",
+    "approvalStatus": " Approval status",
+    "inputApprovalOpinion": "Enter approval comments",
+    "personWorkStatus": "Individual work status",
+    "today": "Today",
+    "weeklyTotalWorkingTime": "Weekly cumulative working hours",
+    "totalWorkingTimeThisMonth": "Total hours worked for the month",
+    "workingTime": "Working hours",
+    "overtime2": "Overtime working hours",
+    "leaveAddHistory": "Creation history",
+    "no": "No",
+    "leaveKinds": "Day off type",
+    "memberName": "Name",
+    "totalUserNum": "Total ",
+    "approvalLeaveApplication": "Approval of day off application",
+    "draftLeaveApplication": "Apply day off",
+    "applicationClassfication": "Type",
+    "periodStart": "Sart date/time",
+    "periodEnd": "End date/time",
+    "useday-time": "Date/time of use",
+    "nextApprover": "Next approver",
+    "viewDetail": "View detail",
+    "search": "Search",
+    "initialize": "Reset",
+    "inputDirect": "Direct input",
+    "exceptionPostfix": " including ",
+    "usePeriod": "Period of use",
+    "process": "Process",
+    "omission": "Omission",
+    "goworkNonCheck": "Unchecked for work",
+    "reason": "Reason",
+    "changeTime": "Change time",
+    "prevTime": "Previous time",
+    "registerTime": "Registration time",
+    "workDetails": "Work details",
+    "addFileRightIcon": "Add attachments by clicking the icon on the right",
+    "myDevice": "My device",
+    "drive": "Drive",
+    "googleDrive": "Google drive",
+    "goWorkTime2": "Office going time",
+    "goOffTime2": "Office leaving time",
+    "startDate3": "Start time",
+    "endDate3": "End time",
+    "applyChangeWorkingTime2": "Application for change of working hours",
+    "buttonNo": "No",
+    "buttonYes": "Yes",
+    "formApprovalOpinion": "Approval comment",
+    "closeButton": "Close",
+    "translation": "Translation"
   },
   "expense": {"key": "value"}
 }
