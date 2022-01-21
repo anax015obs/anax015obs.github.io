@@ -1111,7 +1111,7 @@
     "key": "프로젝트",
     "add": {
       "title": "프로젝트 추가",
-      "mod_title": "프로젝트 변경",
+      "mod_title": "프로젝트 수정",
       "label_title": "프로젝트 제목",
       "label_desc": "프로젝트 설명",
       "priority_low": "낮음",
